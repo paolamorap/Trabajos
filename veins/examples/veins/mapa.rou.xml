@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-09 09:40:45.330673 by randomTrips.py v1_19_0+1520-dc4640af2ac
+<configuration>
+    <net-file value="mapa.net.xml"/>
+    <route-file value="mapa.rou.xml"/>
+    <verbose value="True"/>
+    <period value="1.25"/>
+</configuration>
+-->
+
+<!-- generated on 2024-05-09 09:40:44 by Eclipse SUMO duarouter Version v1_19_0+1520-dc4640af2ac
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="mapa.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="mapa.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- <vehicle id="0" depart="0.00">
+        <route edges="45427996#1 -45427996#1 -86484908#1 -86484908#0 264452213#8 264452213#9 264452213#10 264452213#11 264452213#12 264452213#13 264452213#14 264452213#15 306725304#0 306725304#1 306725304#2 542406425#0 542406425#1 542406425#2 -310108973#2 -310108973#1 -310108973#0"/>
+    </vehicle> 
+    -->
+    
+<!-- Vehiculo desde un LADO -->
+	<vType id="type1"  speedFactor="2" accel="40" decel="35" minGap="0.01" sigma="1" tau="10" length="22" maxSpeed="180"/>
+
+<!-- Vehiculo desde ABAJO -->
+	<vType id="type2"  speedFactor="2" accel="20" decel="0.1" minGap="0.01" sigma="1" tau="1" length="10" maxSpeed="120"/>	
+
+    
+
+
+   <vehicle id="2" depart="5" type="type2">
+        <route edges=" 42201276#7 42201276#8 42201276#9"/>
+    </vehicle>
+    
+    
+    <vehicle id="3" depart="5" type="type1">
+        <route edges="45429543#0 45429543#1 45429543#2  527997818#1 404425499#2 249653688 47861234#0 47861234#1 336149058 336149056 542398110 334968133#1 303119548 42453883#2 42453883#3 42453883#4 42453883#5 42453883#6 42453883#7 42453883#8 542406432 264452213#1 264452213#2"/>
+    </vehicle>
+    
+
+        <vehicle id="4" depart="15" type="type2">
+        <route edges="45429543#0 45429543#1 45429543#2  527997818#1 404425499#2 249653688 47861234#0 47861234#1 336149058 336149056 542398110 334968133#1 303119548 42453883#2 42453883#3 42453883#4 42453883#5 42453883#6 42453883#7 42453883#8 542406432 264452213#1 264452213#2"/>
+    </vehicle>
+    
+        <vehicle id="5" depart="15" type="type2">
+        <route edges="45429543#0 45429543#1 45429543#2  527997818#1 404425499#2 249653688 47861234#0 47861234#1 336149058 336149056 542398110 334968133#1 303119548 42453883#2 42453883#3 42453883#4 42453883#5 42453883#6 42453883#7 42453883#8 542406432 264452213#1 264452213#2"/>
+    </vehicle>
+
+
+
+    
+</routes>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-03 07:58:24 by Eclipse SUMO GUI Version v1_19_0+1520-dc4640af2ac
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/edwin/Documents/OmnetVeinsLab/veins/examples/veins/mapa.net.xml"/>
+        <route-files value="/home/edwin/Documents/OmnetVeinsLab/veins/examples/veins/mapa.rou.xml"/>
+        <additional-files value="/home/edwin/Documents/OmnetVeinsLab/veins/examples/veins/mapa.poly.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/home/edwin/Documents/OmnetVeinsLab/veins/examples/veins/tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <collision.action value="warn"/>
+        <collision.stoptime value="100"/>
+        <collision.check-junctions value="true"/>
+        <collision.mingap-factor value="2"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <xml-validation.net value="never"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="2" depart="5.00" departLane="42201276#7_0" departPos="10.10" departSpeed="0.00" departDelay="0.00" arrival="128.00" arrivalLane="42201276#9_1" arrivalPos="25.08" arrivalSpeed="13.56" duration="123.00" routeLength="203.60" waitingTime="1.00" waitingCount="1" stopTime="101.00" timeLoss="8.53" rerouteNo="0" devices="tripinfo_2" vType="type2" speedFactor="1.94" vaporized=""/>
+</tripinfos>
